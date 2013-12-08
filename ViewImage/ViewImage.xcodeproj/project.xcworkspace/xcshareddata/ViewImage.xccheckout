@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FB6CD79B-DBEC-4CB9-8D3F-AE7ABF4D51D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ViewImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>579D8851-CAC8-44C9-B659-635F1A36C1E4</key>
+		<string>https://github.com/masanori840816/iOS_ViewImage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ViewImage/ViewImage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>579D8851-CAC8-44C9-B659-635F1A36C1E4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/masanori840816/iOS_ViewImage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>579D8851-CAC8-44C9-B659-635F1A36C1E4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>579D8851-CAC8-44C9-B659-635F1A36C1E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_ViewImage</string>
+		</dict>
+	</array>
+</dict>
+</plist>
