@@ -14,11 +14,17 @@
 
 @implementation ViewImageViewController
 @synthesize flagTab01;
+@synthesize flagBlink;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	flagTab01 = YES;
+    flagBlink = YES;
+    cmpDisplayDatas = [[ComputingDisplayDatas alloc]init];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(displayClock:) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(blinkLblBlink:) userInfo:nil repeats:YES];
     
     [self setTabButton];
 }
@@ -26,7 +32,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)btnImage01Touched:(id)sender {
@@ -57,5 +62,20 @@
         NSLog(@"%@",(NSString *)ex);
     }
 }
-
+- (void)displayClock:(NSTimer *)timer
+{
+    // 1秒ごとに現在時刻を表示
+    self.lblNowsTime.text = [cmpDisplayDatas getTimeNow];
+}
+- (void)blinkLblBlink:(NSTimer *)timer
+{
+    // 一定のタイミングでラベルの色を切り替え
+    if (flagBlink){
+        [self.lblBlink setTextColor:[UIColor redColor]];
+        flagBlink = NO;
+    }else{
+        [self.lblBlink setTextColor:[UIColor blackColor]];
+        flagBlink = YES;
+    }
+}
 @end

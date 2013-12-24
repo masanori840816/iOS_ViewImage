@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D72465F518560B0200EBD30A /* fullImage01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72465F418560B0200EBD30A /* fullImage01.jpg */; };
+		D72465F818575F9000EBD30A /* GetImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D72465F718575F9000EBD30A /* GetImageData.m */; };
 		D76611AE1854C574005F27CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76611AD1854C574005F27CB /* Foundation.framework */; };
 		D76611B01854C574005F27CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76611AF1854C574005F27CB /* CoreGraphics.framework */; };
 		D76611B21854C574005F27CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76611B11854C574005F27CB /* UIKit.framework */; };
@@ -21,12 +23,14 @@
 		D76611CF1854C587005F27CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76611B11854C574005F27CB /* UIKit.framework */; };
 		D76611D71854C588005F27CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D76611D51854C588005F27CB /* InfoPlist.strings */; };
 		D76611D91854C588005F27CB /* ViewImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D76611D81854C588005F27CB /* ViewImageTests.m */; };
-		D76611E71854CA6B005F27CB /* imgFrame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D76611E41854CA6B005F27CB /* imgFrame.jpg */; };
 		D76611E81854CA6B005F27CB /* button01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D76611E61854CA6B005F27CB /* button01.jpg */; };
 		D76611EA1854CAB4005F27CB /* tab01_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D76611E91854CAB4005F27CB /* tab01_off.jpg */; };
 		D76611EC1854CAC9005F27CB /* tab01_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D76611EB1854CAC9005F27CB /* tab01_on.jpg */; };
 		D76611F21854CE6C005F27CB /* ViewFullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76611F11854CE6C005F27CB /* ViewFullImageViewController.m */; };
 		D76611F51854CEDE005F27CB /* ViewFullImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76611F31854CEDE005F27CB /* ViewFullImage.storyboard */; };
+		D778B41D1869D32A00F9E0A1 /* ComputingDisplayDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = D778B41C1869D32A00F9E0A1 /* ComputingDisplayDatas.m */; };
+		D778B41E1869D32A00F9E0A1 /* ComputingDisplayDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = D778B41C1869D32A00F9E0A1 /* ComputingDisplayDatas.m */; };
+		D7EC20361869DF5A00F4848F /* imgFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = D7EC20351869DF5A00F4848F /* imgFrame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D72465F418560B0200EBD30A /* fullImage01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fullImage01.jpg; sourceTree = "<group>"; };
+		D72465F618575F9000EBD30A /* GetImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetImageData.h; path = Data/GetImageData.h; sourceTree = "<group>"; };
+		D72465F718575F9000EBD30A /* GetImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetImageData.m; path = Data/GetImageData.m; sourceTree = "<group>"; };
 		D76611AA1854C574005F27CB /* ViewImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76611AD1854C574005F27CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D76611AF1854C574005F27CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +66,15 @@
 		D76611D41854C588005F27CB /* ViewImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewImageTests-Info.plist"; sourceTree = "<group>"; };
 		D76611D61854C588005F27CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D76611D81854C588005F27CB /* ViewImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewImageTests.m; sourceTree = "<group>"; };
-		D76611E41854CA6B005F27CB /* imgFrame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgFrame.jpg; sourceTree = "<group>"; };
 		D76611E61854CA6B005F27CB /* button01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = button01.jpg; sourceTree = "<group>"; };
 		D76611E91854CAB4005F27CB /* tab01_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tab01_off.jpg; sourceTree = "<group>"; };
 		D76611EB1854CAC9005F27CB /* tab01_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tab01_on.jpg; sourceTree = "<group>"; };
 		D76611F01854CE6C005F27CB /* ViewFullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFullImageViewController.h; sourceTree = "<group>"; };
 		D76611F11854CE6C005F27CB /* ViewFullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFullImageViewController.m; sourceTree = "<group>"; };
 		D76611F41854CEDE005F27CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ViewFullImage.storyboard; sourceTree = "<group>"; };
+		D778B41B1869D32A00F9E0A1 /* ComputingDisplayDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputingDisplayDatas.h; sourceTree = "<group>"; };
+		D778B41C1869D32A00F9E0A1 /* ComputingDisplayDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputingDisplayDatas.m; sourceTree = "<group>"; };
+		D7EC20351869DF5A00F4848F /* imgFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgFrame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D72465F318560B0200EBD30A /* full */ = {
+			isa = PBXGroup;
+			children = (
+				D72465F418560B0200EBD30A /* fullImage01.jpg */,
+			);
+			path = full;
+			sourceTree = "<group>";
+		};
 		D76611A11854C573005F27CB = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +152,10 @@
 				D76611F11854CE6C005F27CB /* ViewFullImageViewController.m */,
 				D76611C51854C585005F27CB /* Images.xcassets */,
 				D76611B41854C584005F27CB /* Supporting Files */,
+				D72465F618575F9000EBD30A /* GetImageData.h */,
+				D72465F718575F9000EBD30A /* GetImageData.m */,
+				D778B41B1869D32A00F9E0A1 /* ComputingDisplayDatas.h */,
+				D778B41C1869D32A00F9E0A1 /* ComputingDisplayDatas.m */,
 			);
 			path = ViewImage;
 			sourceTree = "<group>";
@@ -172,6 +193,7 @@
 		D76611E21854CA6B005F27CB /* img */ = {
 			isa = PBXGroup;
 			children = (
+				D72465F318560B0200EBD30A /* full */,
 				D76611E31854CA6B005F27CB /* common */,
 				D76611E51854CA6B005F27CB /* main */,
 			);
@@ -181,7 +203,7 @@
 		D76611E31854CA6B005F27CB /* common */ = {
 			isa = PBXGroup;
 			children = (
-				D76611E41854CA6B005F27CB /* imgFrame.jpg */,
+				D7EC20351869DF5A00F4848F /* imgFrame.png */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -275,12 +297,13 @@
 			files = (
 				D76611F51854CEDE005F27CB /* ViewFullImage.storyboard in Resources */,
 				D76611E81854CA6B005F27CB /* button01.jpg in Resources */,
+				D7EC20361869DF5A00F4848F /* imgFrame.png in Resources */,
+				D72465F518560B0200EBD30A /* fullImage01.jpg in Resources */,
 				D76611C61854C585005F27CB /* Images.xcassets in Resources */,
 				D76611EA1854CAB4005F27CB /* tab01_off.jpg in Resources */,
 				D76611B81854C584005F27CB /* InfoPlist.strings in Resources */,
 				D76611C11854C585005F27CB /* Main.storyboard in Resources */,
 				D76611EC1854CAC9005F27CB /* tab01_on.jpg in Resources */,
-				D76611E71854CA6B005F27CB /* imgFrame.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76611F21854CE6C005F27CB /* ViewFullImageViewController.m in Sources */,
+				D72465F818575F9000EBD30A /* GetImageData.m in Sources */,
 				D76611C41854C585005F27CB /* ViewImageViewController.m in Sources */,
+				D778B41D1869D32A00F9E0A1 /* ComputingDisplayDatas.m in Sources */,
 				D76611BA1854C584005F27CB /* main.m in Sources */,
 				D76611BE1854C585005F27CB /* ViewImageAppDelegate.m in Sources */,
 			);
@@ -311,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76611D91854C588005F27CB /* ViewImageTests.m in Sources */,
+				D778B41E1869D32A00F9E0A1 /* ComputingDisplayDatas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +547,7 @@
 				D76611DE1854C588005F27CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D76611DF1854C588005F27CB /* Build configuration list for PBXNativeTarget "ViewImageTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +556,7 @@
 				D76611E11854C588005F27CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

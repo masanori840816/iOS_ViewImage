@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewFullImageViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *imgFrame;
 @property (weak, nonatomic) IBOutlet UIButton *btnClose;
 - (IBAction)btnCloseTouched:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imgFullView;
 
 @end
